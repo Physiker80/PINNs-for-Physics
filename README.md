@@ -8,7 +8,6 @@ This repository contains a robust implementation of **Physics-Informed Neural Ne
 
 *   ⚙️ **Systems Modeled:**
     *   **Damped Harmonic Oscillator:** Discovering spring stiffness ($k$) and damping coefficient ($c$).
-    *   **Nonlinear Simple Pendulum:** Discovering gravitational acceleration ($g$).
 *   ⚡ **Powered by JAX:** Utilizes JAX for high-performance automatic differentiation (`grad`, `vmap`, `jit`) to compute exact physics residuals.
 *   ⚓ **Robust Training Strategy:** Implements a **Two-Phase Training** approach (Pre-training $\rightarrow$ Frozen Network) to solve **Gradient Pathology**, preventing the physics loss from overpowering the data fit.
 *   ✅ **Automated Optimization:** Integrates **Optuna** for hyperparameter tuning, achieving parameter estimation errors as low as **0.1%**.
