@@ -28,7 +28,6 @@ This project uses a **two-level optimization approach**:
 The solver treats physical parameters as trainable variables within the computational graph. To ensure convergence, the training is split into two phases:
 1.  **Deep Data Fitting:** The network learns the underlying trajectory from noisy data without physics constraints.
 2.  **Parameter Discovery:** The network weights are frozen, and the optimizer focuses solely on finding the physical parameters that satisfy the governing ODEs.
-3.  
 
 ## 🛠️ Tech Stack
 

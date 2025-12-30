@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+*.so
+*.dll
+*.exe
+*.out
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output files
+*.gif
+*.png
+*.jpg
+*.jpeg
+!Damped\ Oscillator.jpg
+!pro_damped_dashboard_jax.gif
